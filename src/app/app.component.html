@@ -1,0 +1,18 @@
+
+
+<div class="container-fluid main-container h-100 text-white" [@fadeInAnimation]>
+<app-logo #menu></app-logo>
+<div class="container" *ngIf="!menu.showCenter">
+    <div class="py-5">&nbsp;</div>
+    <section class="row d-flex justify-content-center">
+        <div class="col-md-6 col-lg-9 col-sm-12 order-md-1 order-sm-2 order-xs-2 d-inline-flex align-items-center">
+            <app-icon type="linkedin2" width="50"></app-icon> <h3 class="ml-2"><a class="text-white" href="https://www.linkedin.com/in/cronstrand">linkedin.com/in/cronstrand</a></h3>
+        </div>
+    </section>
+    <section class="row d-flex justify-content-center">
+        <div class="col-md-6 col-lg-9 col-sm-12 order-md-1 order-sm-2 order-xs-2 d-inline-flex align-items-center">
+            <app-icon type="mail" width="50"></app-icon> <h3 class="ml-2"><a class="text-white" href="mailto:rasmus@cronstrand.com">rasmus(at)cronstrand.com</a></h3>
+        </div>
+    </section>
+</div>
+</div>
